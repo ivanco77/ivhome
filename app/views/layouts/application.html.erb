@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= yield(:title) %> | iDocs</title>
+	<%= csrf_meta_tags %>
+    <h1>Ivan Tymofiiev</h1>
+      <ul id="main-nav">
+    	<li><a href="home.html">Home</a></li>
+	    <li><a href="about.html">About me</a></li>
+	    <li><a href="contact.html">Contact me</a></li>
+    </ul>
+ </head>
+  <body>
+    <%= yield %>
+  </body>
+</html>
